@@ -15,3 +15,6 @@ COLLEGE: [SENECA](https://www.senecacollege.ca/home.html)
 | sample json objects      | X |
 | sample table             | X |
 | sample hyperlink         | X |
+
+https://github.com/microsoft/vscode/blob/8be8d96ab86ed4077df554eb62727484d454699f/scripts/code-cli.sh#L3
+https://github.com/microsoft/vscode/blob/8be8d96ab86ed4077df554eb62727484d454699f/scripts/code-cli.sh#L3-L13
