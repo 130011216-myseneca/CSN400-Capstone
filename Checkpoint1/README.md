@@ -16,5 +16,5 @@ COLLEGE: [SENECA](https://www.senecacollege.ca/home.html)
 | sample table             | X |
 | sample hyperlink         | X |
 
-https://github.com/microsoft/vscode/blob/8be8d96ab86ed4077df554eb62727484d454699f/scripts/code-cli.sh#L3
-https://github.com/microsoft/vscode/blob/8be8d96ab86ed4077df554eb62727484d454699f/scripts/code-cli.sh#L3-L13
+Single Line Snippet https://github.com/microsoft/vscode/blob/8be8d96ab86ed4077df554eb62727484d454699f/scripts/code-cli.sh#L3
+Multi Line Snippet https://github.com/microsoft/vscode/blob/8be8d96ab86ed4077df554eb62727484d454699f/scripts/code-cli.sh#L3-L13
