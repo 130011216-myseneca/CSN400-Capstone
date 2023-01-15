@@ -5,5 +5,6 @@ STUDENT’S NAME: AUSTIN MACKENZIE <br />
 STUDENT'S NUMBER: 130011216 <br />
 GITHUB USER_ID: 130011216-myseneca <br />
 TEACHER’S NAME: ATOOSA NASIRI <br />
+COLLEGE: [SENECA](https://www.senecacollege.ca/home.html)
 
 
