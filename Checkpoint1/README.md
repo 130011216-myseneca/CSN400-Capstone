@@ -1,3 +1,5 @@
+![my image](![image](https://user-images.githubusercontent.com/122462473/212564374-872ddd23-f26c-4a52-8af9-eeb08889698c.png)
+
 COURSE INFORMATION: NCC <br />
 STUDENT’S NAME: AUSTIN MACKENZIE <br />
 STUDENT'S NUMBER: 130011216 <br />
