@@ -7,12 +7,12 @@ TEACHER’S NAME: ATOOSA NASIRI <br />
 COLLEGE: [SENECA](https://www.senecacollege.ca/home.html)
 
 # Table of Contents
-### [An Image]()
-### [Single line code snippet]()
-### [Multi line code snippet]()
+### [An Image](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#an-image-1)
+### [Single line code snippet](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#single-line-code)
+### [Multi line code snippet](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#multi-line-code)
 ### [Sample json objects]()
-### [Sample table]()
-### [Sample hyperlink]()
+### [Sample table](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#sample-table-1)
+### [Sample hyperlink](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#hyperlink)
 
 ## An Image
 ![my image](https://user-images.githubusercontent.com/122462473/212564502-aa85b3a0-4e25-42ef-b471-91e079c14a3c.png)
