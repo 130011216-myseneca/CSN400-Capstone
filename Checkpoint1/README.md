@@ -8,12 +8,13 @@ TEACHER’S NAME: ATOOSA NASIRI <br />
 COLLEGE: [SENECA](https://www.senecacollege.ca/home.html)
 
 # Table of Contents
-## An Image
-## Single line code snippet
-## Multi line code snippet
-## Sample json objects
-## Sample table
-## Sample hyperlink
+#### [An Image](https://user-images.githubusercontent.com/122462473/212564502-aa85b3a0-4e25-42ef-b471-91e079c14a3c.png)
+#### [Single line code snippet](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#:~:text=Single%20Line%20Snippet%20https%3A//github.com/microsoft/vscode/blob/8be8d96ab86ed4077df554eb62727484d454699f/scripts/code%2Dcli.sh%23L3)
+#### [Multi line code snippet](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#:~:text=Multi%20Line%20Snippet%20https%3A//github.com/microsoft/vscode/blob/8be8d96ab86ed4077df554eb62727484d454699f/scripts/code%2Dcli.sh%23L3%2DL13)
+#### [Sample json objects]()
+#### [Sample table](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#:~:text=Sample%20hyperlink-,Checkpoint%201%20Checklist,X,-Single%20Line%20Snippet)
+#### [Sample hyperlink](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#:~:text=NAME%3A%20ATOOSA%20NASIRI-,COLLEGE%3A%20SENECA,-Table%20of%20Contents)
+
 
 | Checkpoint 1 Checklist       | X/O        |
 | ------------- |:-------------:|
