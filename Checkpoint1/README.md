@@ -7,6 +7,10 @@ GITHUB USER_ID: 130011216-myseneca <br />
 TEACHER’S NAME: ATOOSA NASIRI <br />
 COLLEGE: [SENECA](https://www.senecacollege.ca/home.html)
 
+# Table of Contents
+# An Image
+# Single line code snippet
+
 | Checkpoint 1 Checklist       | X/O        |
 | ------------- |:-------------:|
 | an image                 | X  | 
