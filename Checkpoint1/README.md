@@ -1,10 +1,10 @@
 
-COURSE INFORMATION: NCC <br />
-STUDENT’S NAME: AUSTIN MACKENZIE <br />
-STUDENT'S NUMBER: 130011216 <br />
-GITHUB USER_ID: 130011216-myseneca <br />
-TEACHER’S NAME: ATOOSA NASIRI <br />
-COLLEGE: [SENECA](https://www.senecacollege.ca/home.html)
+***COURSE INFORMATION: NCC*** <br />
+***STUDENT’S NAME: AUSTIN MACKENZIE*** <br />
+***STUDENT'S NUMBER: 130011216*** <br / ***>
+***GITHUB USER_ID: 130011216-myseneca*** <br />
+***TEACHER’S NAME: ATOOSA NASIRI*** <br />
+***COLLEGE: [SENECA](https://www.senecacollege.ca/home.html)***
 
 # Table of Contents
 ### [An Image](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#an-image-1)
