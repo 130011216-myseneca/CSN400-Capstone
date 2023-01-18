@@ -11,7 +11,7 @@
 - [Single line code snippet](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#single-line-code)
 - [Multi line code snippet](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#multi-line-code)
 - [Sample json objects](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint1/README.md#json-object)
-- [Sample table](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#sample-table-1)
+- [Sample table](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#sample-table)
 - [Sample hyperlink](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint1#hyperlink)
 
 ## An Image
