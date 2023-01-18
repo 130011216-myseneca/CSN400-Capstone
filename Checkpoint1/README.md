@@ -8,8 +8,12 @@ TEACHER’S NAME: ATOOSA NASIRI <br />
 COLLEGE: [SENECA](https://www.senecacollege.ca/home.html)
 
 # Table of Contents
-# An Image
-# Single line code snippet
+## An Image
+## Single line code snippet
+## Multi line code snippet
+## Sample json objects
+## Sample table
+## Sample hyperlink
 
 | Checkpoint 1 Checklist       | X/O        |
 | ------------- |:-------------:|
