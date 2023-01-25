@@ -12,7 +12,7 @@ ________________________________________________________________
 - [PART C - Creating & Merging Branches](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint2/README.md#L23)
 - [PART D - Git Branching Strategy Review Questions](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint2/README.md#L271)
 <br />
-________________________________________________________________
+
 <br />
 
 ***PART A - Adding Files - Local Repo Workflow:***
@@ -53,4 +53,32 @@ Release-Used for release updates and last minute changes.
 
 ***3. What is the best practices working with release branches?***
 
-There should be more then one developer and be 'publicly available'. This allows a smaller room for error.
+There should be more then one developer and be 'publicly available'. This allows a smaller room for error.commit 4da334b0e656704871e7592f7c00a0531348eadc
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Tue Jan 24 20:35:39 2023 -0500
+
+    adds proper links to README
+
+commit 3c566c32b249441bfb699a4484ec01336ce5c410
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Tue Jan 24 20:27:29 2023 -0500
+
+    adds proper links to README
+
+commit 86f982535b531163264875d01f68ee9e01ebf9c9
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Tue Jan 24 20:16:09 2023 -0500
+
+    adds logs to README
+
+commit 707e2b27c2e552afa93bfa758d3229fe68288af0
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Tue Jan 24 19:55:38 2023 -0500
+
+    adds editing changes
+
+commit d4884fd1adaaca8334ae39db4e45542cf4caebf8
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Tue Jan 24 19:51:27 2023 -0500
+
+    adds editing changes
