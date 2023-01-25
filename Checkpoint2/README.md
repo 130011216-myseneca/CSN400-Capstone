@@ -31,4 +31,32 @@ The main branch is the default branch where everything that happens, eventually 
 The three branches are:
 Features/Bugfix- Used for development of new features/Used to fix bugs and merges back into development.
 Hotfix-Changes that have to happen immediately, branches from main branch.
-Release-Used for release updates and last minute changes.
+Release-Used for release updates and last minute changes.commit 707e2b27c2e552afa93bfa758d3229fe68288af0
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Tue Jan 24 19:55:38 2023 -0500
+
+    adds editing changes
+
+commit d4884fd1adaaca8334ae39db4e45542cf4caebf8
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Tue Jan 24 19:51:27 2023 -0500
+
+    adds editing changes
+
+commit 3401d7049b52523d4ca3874a9d56a53544264ef7
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Tue Jan 24 17:49:12 2023 -0500
+
+    adds changes to .txt
+
+commit ac21c9290cd3c031ed2bf30d5c91a5d91c5aed8f
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Tue Jan 24 17:47:10 2023 -0500
+
+    adds all
+
+commit 54fc8ca5974acdf7400162d54ae0d28b21bc5c63
+Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
+Date:   Mon Jan 23 14:20:14 2023 -0500
+
+    adds Checkpoint2 update
