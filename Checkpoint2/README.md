@@ -5,58 +5,46 @@
 **TEACHER’S NAME: Atoosa Nasiri**<br />
 <br />
 # Table of Contents
-- [PART A - Adding Files - Local Repo Workflow](https://github.com/130011216-myseneca/CSN400-Capstone/blob/3401d7049b52523d4ca3874a9d56a53544264ef7/Checkpoint2/README.md#L13-L14)
-- [PART B - Inspecting Local Repo with 'git status' and 'git log'](https://github.com/130011216-myseneca/CSN400-Capstone/blob/3401d7049b52523d4ca3874a9d56a53544264ef7/Checkpoint2/README.md#L15)
-- [PART C - Creating & Merging Branches](https://github.com/130011216-myseneca/CSN400-Capstone/blob/3401d7049b52523d4ca3874a9d56a53544264ef7/Checkpoint2/README.md#L19)
-- [PART D - Git Branching Strategy Review Questions](https://github.com/130011216-myseneca/CSN400-Capstone/blob/3401d7049b52523d4ca3874a9d56a53544264ef7/Checkpoint2/README.md#L21)
+- [PART A - Adding Files - Local Repo Workflow](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint2/README.md#L16)
+- [PART B - Inspecting Local Repo with 'git status' and 'git log'](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint2/README.md#L18)
+- [PART C - Creating & Merging Branches](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint2/README.md#L23)
+- [PART D - Git Branching Strategy Review Questions](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint2/README.md#L271)
 <br />
-____
+________________________________________________________________
 <br />
 
-***PART A - Adding Files - Local Repo Workflow:***
+***PART A - Adding Files - Local Repo Workflow:*** <br />C:\Users\austi\Desktop\   \Semester 4\CSN400NCC\Github\CSN400-Capstone\Checkpoint2
 
-***PART B - Creating Local Repo with 'git status' and 'git log': How do these two commands differ? Elaborate with an example.***
-Git Status shows the staging area and status of the repository.
-Git Log shows this history of commits.
+<br />***PART B - Creating Local Repo with 'git status' and 'git log': How do these two commands differ? Elaborate with an example.***
+<br />Git Status shows the staging area and status of the repository.
+<br />Git Log shows this history of commits. 
 
-***PART C - Creating and merging branches: Run 'git log -n 5'. Embed the log output as bash script to the 'README.md' with proper formatting.***
 
-***PART D - Git Branching Strategy Review Question:***
+<br />***PART C - Creating and merging branches: Run 'git log -n 5'. Embed the log output as bash script to the 'README.md' with proper formatting.***
+<br /> git log -n 5 >> README.md
 
-QUESTIONS
-1. What are the differences between develop branch and main branch?
+
+<br />***PART D - Git Branching Strategy Review Question:***
+
+
+<br />
+
+****QUESTIONS**** 
+
+<br />
+
+***1. What are the differences between develop branch and main branch?***
 
 The main branch is the default branch where everything that happens, eventually get's merged into. The development branch is where changes are made and will eventually be merged into the main branch.  It also allows an easier workflow for multiple users.
+
+***2. What are the three supporting branches?***
+
 
 The three branches are:
 Features/Bugfix- Used for development of new features/Used to fix bugs and merges back into development.
 Hotfix-Changes that have to happen immediately, branches from main branch.
-Release-Used for release updates and last minute changes.commit 707e2b27c2e552afa93bfa758d3229fe68288af0
-Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
-Date:   Tue Jan 24 19:55:38 2023 -0500
+Release-Used for release updates and last minute changes.
 
-    adds editing changes
+***3. What is the best practices working with release branches?***
 
-commit d4884fd1adaaca8334ae39db4e45542cf4caebf8
-Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
-Date:   Tue Jan 24 19:51:27 2023 -0500
-
-    adds editing changes
-
-commit 3401d7049b52523d4ca3874a9d56a53544264ef7
-Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
-Date:   Tue Jan 24 17:49:12 2023 -0500
-
-    adds changes to .txt
-
-commit ac21c9290cd3c031ed2bf30d5c91a5d91c5aed8f
-Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
-Date:   Tue Jan 24 17:47:10 2023 -0500
-
-    adds all
-
-commit 54fc8ca5974acdf7400162d54ae0d28b21bc5c63
-Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
-Date:   Mon Jan 23 14:20:14 2023 -0500
-
-    adds Checkpoint2 update
+There should be more then one developer and be 'publicly available'. This allows a smaller room for error.
