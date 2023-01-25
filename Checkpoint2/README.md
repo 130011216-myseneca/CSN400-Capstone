@@ -1,9 +1,11 @@
+\
 **COURSE INFORMATION: CSN400-NCC**<br />
 **STUDENT’S NAME: Austin MacKenzie**<br />
 **STUDENT'S NUMBER: 130011216**<br />
-**GITHUB USER ID: 130011216**<br />
+**GITHUB USER ID: 130011216-myseneca**<br />
 **TEACHER’S NAME: Atoosa Nasiri**<br />
 <br />
+________________________________________________________________
 # Table of Contents
 - [PART A - Adding Files - Local Repo Workflow](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint2/README.md#L16)
 - [PART B - Inspecting Local Repo with 'git status' and 'git log'](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint2/README.md#L18)
@@ -13,14 +15,18 @@
 ________________________________________________________________
 <br />
 
-***PART A - Adding Files - Local Repo Workflow:*** <br />C:\Users\austi\Desktop\   \Semester 4\CSN400NCC\Github\CSN400-Capstone\Checkpoint2
+***PART A - Adding Files - Local Repo Workflow:***
+\
+\
+C:\Users\austi\Desktop\   \Semester 4\CSN400NCC\Github\CSN400-Capstone\Checkpoint2
 
 <br />***PART B - Creating Local Repo with 'git status' and 'git log': How do these two commands differ? Elaborate with an example.***
+\
 <br />Git Status shows the staging area and status of the repository.
 <br />Git Log shows this history of commits. 
 
 
-<br />***PART C - Creating and merging branches: Run 'git log -n 5'. Embed the log output as bash script to the 'README.md' with proper formatting.***
+<br />***PART C - Creating and merging branches: Run 'git log -n 5'. Embed the log output as bash script to the 'README.md' with proper formatting.***\
 <br /> git log -n 5 >> README.md
 
 
