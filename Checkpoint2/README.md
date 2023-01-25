@@ -53,7 +53,14 @@ Release-Used for release updates and last minute changes.
 
 ***3. What is the best practices working with release branches?***
 
-There should be more then one developer and be 'publicly available'. This allows a smaller room for error.commit 4da334b0e656704871e7592f7c00a0531348eadc
+There should be more then one developer and be 'publicly available'. This allows a smaller room for error.commit 
+
+\
+\
+\
+\
+\
+4da334b0e656704871e7592f7c00a0531348eadc
 Author: 130011216-myseneca <122462473+130011216-myseneca@users.noreply.github.com>
 Date:   Tue Jan 24 20:35:39 2023 -0500
 
