@@ -8,17 +8,16 @@
 <br>
 
 ## **Table of Contents** 
-* Part A - [Creating Your Unique Network Topology](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/README.md#L12-L13)
-* Part B - [Creating Resources in Azure Portal](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/README.md#L13-L14) 
-* Part C - [Working in Azure CLI Bash](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/README.md#L14)/
+* Part A - [Creating Your Unique Network Topology](#part-a--creating-your-unique-network-topology)
+* Part B - [Creating Resources in Azure Portal](#part-b---creating-resources-in-azure-portal) 
+* Part C - [Working in Azure CLI Bash](#part-c---working-in-azure-cli-bash)
 
 <br>
 <bR>
 
 ### **PART A** -Creating Your Unique Network Topology: 
 <br>
-<br
->
+<br>
 
 ![topology](/images/NetworkTopologyCP4.jpg)
 <br>
