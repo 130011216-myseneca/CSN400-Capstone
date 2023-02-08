@@ -20,22 +20,25 @@
 <br>
 
 ![topology](/images/NetworkTopologyCP4.jpg)
+
 <br>
 <br>
 
-### **Part B** - Creating Resources in Azure Portal: 
+### **Part B** - Creating Resources in Azure Portal
 <br>
 
 ### **Part C** - Working in Azure CLI Bash:
 
-All Files\
-[peerings.tbl](/PartCFiles/peerings.tbl)\
-[route-details.json](/PartCFiles/route-details.json)\
-[route_list.tbl](/PartCFiles/route_list.tbl)\
-[student_vnet.json](/PartCFiles/student_vnet.json)\
-[vnet_list.json](/PartCFiles/vnet_list.json)
+[peerings.tbl](/PartCFiles/peerings.tbl)
+
+[route-details.json](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/route-details.json)
+
+[route_list.tbl](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/route_list.tbl)
+
+[student_vnet.json](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/student_vnet.json)
+
+[vnet_list.json](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/vnet_list.json)
 
 <br>
 
 ### **Part D** - Network Review Questions: 
-[Questions](/)
