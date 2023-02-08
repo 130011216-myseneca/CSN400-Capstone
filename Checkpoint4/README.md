@@ -19,7 +19,7 @@
 <br>
 <br>
 
-![topology](/images/NetworkTopologyCP4.jpg)
+[topology](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/images/NetworkTopologyCP4.jpg)
 
 <br>
 <br>
@@ -29,7 +29,7 @@
 
 ### **Part C** - Working in Azure CLI Bash:
 
-[peerings.tbl](/PartCFiles/peerings.tbl)
+[peerings.tbl](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/peerings.tbl)
 
 [route-details.json](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/route-details.json)
 
