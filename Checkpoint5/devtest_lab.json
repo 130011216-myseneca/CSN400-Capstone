@@ -1,0 +1,54 @@
+{
+    "properties": {
+        "defaultStorageAccount": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.storage/storageaccounts/acsn400899787",
+        "defaultPremiumStorageAccount": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.storage/storageaccounts/acsn400899787",
+        "artifactsStorageAccount": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.storage/storageaccounts/acsn400899787",
+        "premiumDataDiskStorageAccount": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.storage/storageaccounts/acsn400899787",
+        "vaultName": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.keyvault/vaults/csn400895135",
+        "labStorageType": "Premium",
+        "mandatoryArtifactsResourceIdsLinux": [],
+        "mandatoryArtifactsResourceIdsWindows": [],
+        "createdDate": "2023-02-08T14:44:42.6214376+00:00",
+        "premiumDataDisks": "Disabled",
+        "environmentPermission": "Reader",
+        "announcement": {
+            "title": "",
+            "markdown": "",
+            "enabled": "Disabled",
+            "expired": false
+        },
+        "support": {
+            "enabled": "Disabled",
+            "markdown": ""
+        },
+        "vmCreationResourceGroupId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourceGroups/student-rg-846129",
+        "extendedProperties": {
+            "RdpConnectionType": "7"
+        },
+        "browserConnect": "Disabled",
+        "disableAutoUpgradeCseMinorVersion": false,
+        "managementIdentities": {},
+        "isolateLabResources": "Disabled",
+        "encryption": {
+            "type": "EncryptionAtRestWithPlatformKey"
+        },
+        "provisioningState": "Succeeded",
+        "uniqueIdentifier": "4f7fe6ae-d995-4612-833e-ed96880c079f"
+    },
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "845faeb0-3c40-4fa0-87f2-ccebda56e548",
+        "tenantId": "ed27b597-cea0-4942-8c6f-40e6a78bf47d"
+    },
+    "location": "canadacentral",
+    "tags": {
+        "DeploymentId": "846129",
+        "LaunchId": "28961",
+        "LaunchType": "ON_DEMAND_LAB",
+        "TemplateId": "4678",
+        "TenantId": "353"
+    },
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89",
+    "name": "CSN400-89",
+    "type": "Microsoft.DevTestLab/labs"
+}
