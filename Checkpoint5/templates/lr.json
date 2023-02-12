@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "notes": "Red Hat Enterprise Linux 8.1 (LVM)\t",
+        "ownerObjectId": "b5ea18ba-a209-4170-bbbc-73dc61b8dd9c",
+        "ownerUserPrincipalName": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+        "createdByUserId": "100320026C63FB9E",
+        "createdByUser": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+        "createdDate": "2023-02-11T18:12:23.2894564+00:00",
+        "computeId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourceGroups/student-rg-846129/providers/Microsoft.Compute/virtualMachines/LR-89",
+        "osType": "Linux",
+        "size": "Standard_B2s",
+        "userName": "amackenzie10",
+        "isAuthenticationWithSshKey": false,
+        "labSubnetName": "SN1",
+        "labVirtualNetworkId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualnetworks/router-89",
+        "disallowPublicIpAddress": true,
+        "artifactDeploymentStatus": {
+            "artifactsApplied": 0,
+            "totalArtifacts": 0
+        },
+        "galleryImageReference": {
+            "offer": "RHEL",
+            "publisher": "RedHat",
+            "sku": "8.1",
+            "osType": "Linux",
+            "version": "latest"
+        },
+        "networkInterface": {},
+        "allowClaim": false,
+        "storageType": "Standard",
+        "virtualMachineCreationSource": "FromGalleryImage",
+        "lastKnownPowerState": "Running",
+        "provisioningState": "Succeeded",
+        "uniqueIdentifier": "fe03b68a-2f2e-4581-888d-e342b95a3bcb"
+    },
+    "location": "canadacentral",
+    "tags": {
+        "DeploymentId": "846129",
+        "LaunchId": "28961",
+        "LaunchType": "ON_DEMAND_LAB",
+        "TemplateId": "4678",
+        "TenantId": "353"
+    },
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/lr-89",
+    "name": "LR-89",
+    "type": "Microsoft.DevTestLab/labs/virtualMachines"
+}

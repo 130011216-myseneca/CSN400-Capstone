@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "notes": "Windows Server 2019 Datacenter",
+        "ownerObjectId": "b5ea18ba-a209-4170-bbbc-73dc61b8dd9c",
+        "ownerUserPrincipalName": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+        "createdByUserId": "100320026C63FB9E",
+        "createdByUser": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+        "createdDate": "2023-02-11T18:16:35.5483856+00:00",
+        "computeId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourceGroups/student-rg-846129/providers/Microsoft.Compute/virtualMachines/WS-89",
+        "osType": "Windows",
+        "size": "Standard_B2s",
+        "userName": "amackenzie10",
+        "isAuthenticationWithSshKey": false,
+        "labSubnetName": "SN1",
+        "labVirtualNetworkId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualnetworks/server-89",
+        "disallowPublicIpAddress": true,
+        "artifactDeploymentStatus": {
+            "artifactsApplied": 0,
+            "totalArtifacts": 0
+        },
+        "galleryImageReference": {
+            "offer": "WindowsServer",
+            "publisher": "MicrosoftWindowsServer",
+            "sku": "2019-Datacenter",
+            "osType": "Windows",
+            "version": "latest"
+        },
+        "networkInterface": {},
+        "allowClaim": false,
+        "storageType": "Standard",
+        "virtualMachineCreationSource": "FromGalleryImage",
+        "lastKnownPowerState": "Running",
+        "provisioningState": "Succeeded",
+        "uniqueIdentifier": "8780bdfe-aa4d-448d-98c8-5ac9bca816c0"
+    },
+    "location": "canadacentral",
+    "tags": {
+        "DeploymentId": "846129",
+        "LaunchId": "28961",
+        "LaunchType": "ON_DEMAND_LAB",
+        "TemplateId": "4678",
+        "TenantId": "353"
+    },
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/ws-89",
+    "name": "WS-89",
+    "type": "Microsoft.DevTestLab/labs/virtualMachines"
+}
