@@ -20,36 +20,42 @@
 <br>
 <br>
 
-Dev Test
+**Dev Test**
 ![DevTest3](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint5/PartA-DevTest/DevPolicies.jpg?raw=true)
 
 <br>
 
-Dev Configurations and Policies
+**Dev Configurations and Policies**
 ![DevTest2](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint5/PartA-DevTest/DevPolicies.jpg?raw=true)
 
 <br>
 
-Dev Test Labs
+**Dev Test Labs**
 ![DevTest](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint5/PartA-DevTest/DevLabs.jpg?raw=true)
 
 <br>
 
-Dev Virtual Machines
+**Dev Virtual Machines**
 ![DevTest4](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint5/PartA-DevTest/DevVMs.jpg?raw=true)
 <br>
 <br>
 
 ### **Part B** - Working with az lab CLI command
 
+<br>
 
 [All CLI commands](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint5/PartB-AzCli)
 
 [Name Property](https://github.com/130011216-myseneca/CSN400-Capstone/blob/a224c3d9bf60d922c83abcd2345447fe6bc0e023/Checkpoint5/PartB-AzCli/devtest_lab.json#L52)
 
+<br>
+
 ### **Part C** - Creating VMs using Azure Resource Manager:
 
+
 [CLI Files](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint5/PartC-ListImages)
+
+<br>
 
 ### **Part D** - Azure Cost Analysis Charts:
 1.
