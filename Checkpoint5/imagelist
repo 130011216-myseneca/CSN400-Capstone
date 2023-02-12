@@ -1,0 +1,210 @@
+[
+  {
+    "author": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+    "creationDate": "2023-02-11T20:22:04.863698+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Tasks completed\nno connection no setup",
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/customimages/ws-img-v01",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.compute/snapshots/ws-img-v01",
+    "name": "WS-img-v01",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846129",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "7a9d98f9-2a13-43ff-9dfb-247dd6af05ab",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": null,
+      "sourceVmId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/ws-89",
+      "windowsOsInfo": {
+        "windowsOsState": "NonSysprepped"
+      }
+    }
+  },
+  {
+    "author": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+    "creationDate": "2023-02-11T20:22:49.843704+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Task completed\nno config",
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/customimages/ls-img-v01",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.compute/snapshots/ls-img-v01",
+    "name": "LS-img-v01",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846129",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "b707b80b-4bbf-4807-9a15-86dfb83e5ee1",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": {
+        "linuxOsState": "NonDeprovisioned"
+      },
+      "sourceVmId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/ls-89",
+      "windowsOsInfo": null
+    }
+  },
+  {
+    "author": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+    "creationDate": "2023-02-11T20:23:30.813196+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Task Completed\nadded linux key and tested, working",
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/customimages/lr-img-v01",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.compute/snapshots/lr-img-v01",
+    "name": "LR-img-v01",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846129",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "4683dbed-e71c-4f93-9e5b-c333d0e6bdd6",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": {
+        "linuxOsState": "NonDeprovisioned"
+      },
+      "sourceVmId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/lr-89",
+      "windowsOsInfo": null
+    }
+  },
+  {
+    "author": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+    "creationDate": "2023-02-11T20:24:19.468377+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Tasks Completed:\nadded linuxkey, changed extension, tested",
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/customimages/wc-img-v01",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.compute/snapshots/wc-img-v01",
+    "name": "WC-img-v01",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846129",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "efd08483-7239-4f5a-9e1e-df5d56887f3e",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": null,
+      "sourceVmId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/wc-89",
+      "windowsOsInfo": {
+        "windowsOsState": "NonSysprepped"
+      }
+    }
+  },
+  {
+    "author": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+    "creationDate": "2023-02-12T02:48:03.591560+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": null,
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/customimages/wc-89-v02",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.compute/snapshots/wc-89-v02",
+    "name": "WC-89-V02",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846129",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "0128db6e-a90d-49dd-866a-5bc8220ef19a",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": null,
+      "sourceVmId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/wc-89",
+      "windowsOsInfo": {
+        "windowsOsState": "NonSysprepped"
+      }
+    }
+  },
+  {
+    "author": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+    "creationDate": "2023-02-12T02:49:16.777482+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "version 2 same as first",
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/customimages/lr-89-v02",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.compute/snapshots/lr-89-v02",
+    "name": "LR-89-V02",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846129",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "a8ce503a-4618-4534-8e7d-f41cfb9f0764",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": {
+        "linuxOsState": "NonDeprovisioned"
+      },
+      "sourceVmId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/lr-89",
+      "windowsOsInfo": null
+    }
+  },
+  {
+    "author": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+    "creationDate": "2023-02-12T02:51:09.087052+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Same as version 1",
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/customimages/ws-89-v02",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.compute/snapshots/ws-89-v02",
+    "name": "WS-89-V02",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846129",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "6126a8c2-8431-4fe8-8bfd-99d7c6dd1c32",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": null,
+      "sourceVmId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/ws-89",
+      "windowsOsInfo": {
+        "windowsOsState": "NonSysprepped"
+      }
+    }
+  },
+  {
+    "author": "odl_user_846129@seneca-csn400ncc.cloudlabs.ai",
+    "creationDate": "2023-02-12T02:52:00.373258+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Same as version 1",
+    "id": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/customimages/ls-89-v02",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.compute/snapshots/ls-89-v02",
+    "name": "LS-89-V02",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846129",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "0cbda879-0b07-4e0d-8ba0-97be6a61a69c",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": {
+        "linuxOsState": "NonDeprovisioned"
+      },
+      "sourceVmId": "/subscriptions/d4a883dd-79d7-45fd-ad66-297181dd5dc4/resourcegroups/student-rg-846129/providers/microsoft.devtestlab/labs/csn400-89/virtualmachines/ls-89",
+      "windowsOsInfo": null
+    }
+  }
+]
