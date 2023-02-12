@@ -8,10 +8,10 @@
 <br>
 
 ## **Table of Contents** 
-* Part A - [Creating Resource in Azure Portal](#part-a--creating-your-unique-network-topology)
-* Part B - [Working with az lab CLI command](#part-b---creating-resources-in-azure-portal) 
-* Part C - [Creating VMs using Azure Resource Manager & Custom Images](#part-c---working-in-azure-cli-bash)
-* Part D - [Azure Cost Analysis Charts]()
+* Part A - [Creating Resource in Azure Portal](#part-a--creating-resource-in-azure-portal)
+* Part B - [Working with az lab CLI command](#part-b---working-with-az-lab-cli-command) 
+* Part C - [Creating VMs using Azure Resource Manager & Custom Images](#part-c---creating-vms-using-azure-resource-manager)
+* Part D - [Azure Cost Analysis Charts](#part-d---azure-cost-analysis-charts)
 
 <br>
 <bR>
