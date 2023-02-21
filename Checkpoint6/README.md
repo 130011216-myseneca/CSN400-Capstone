@@ -6,6 +6,8 @@
 
 <br>
 <br>
+<br>
+
 
 ## ***Table of Contents*** 
 * Part A - DevTest Lab VM Configuration
@@ -13,6 +15,7 @@
 * Part C - [Enable ip-forwarding in NIC](#part-c---enable-ip-forwarding-in-nic)
 * Part D - [Basic Connectivity](#part-d---basic-connectivity)
 
+<br>
 <br>
 <bR>
 
