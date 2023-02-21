@@ -14,6 +14,8 @@
 * Part B - [Linux VMs Firewall Setting](#part-b--linux-vms-firewall-setting)
 * Part C - [Enable ip-forwarding in NIC](#part-c---enable-ip-forwarding-in-nic)
 * Part D - [Basic Connectivity](#part-d---basic-connectivity)
+* Part E - [Cost Analysis](#part-e---cost-analysis) 
+* VM [List Command](#part-f---list-of-vms-deleted)
 
 <br>
 <br>
@@ -57,4 +59,8 @@
 ![Cost Analysis 6](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/PartE-Costs/CA-Image6.jpg?raw=true)
 
 
-[List of VMs](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/vms.tbl)
+### **Part F** - List of VM's Deleted 
+
+<br>
+
+![List of VMs](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/PartE-Costs/VMS.jpg?raw=true)
