@@ -7,11 +7,11 @@
 <br>
 <br>
 
-## **Table of Contents** 
+## ***Table of Contents*** 
 * Part A - DevTest Lab VM Configuration
 * Part B - [Linux VMs Firewall Setting](#part-b--linux-vms-firewall-setting)
-* Part C - [Enable ip-forwarding in NIC]()
-* Part D - [Basic Connectivity]()
+* Part C - [Enable ip-forwarding in NIC](#part-c---enable-ip-forwarding-in-nic)
+* Part D - [Basic Connectivity](#part-d---basic-connectivity)
 
 <br>
 <bR>
@@ -36,3 +36,8 @@
 <br>
 
 [SSH and RDP](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/sshRDP.json)
+
+
+
+
+[List of VMs](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/vms.tbl)
