@@ -40,7 +40,21 @@
 
 [SSH and RDP](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/sshRDP.json)
 
+### **Part E** - Cost Analysis 
 
+<br>
+
+![Cost Analysis 1](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/PartE-Costs/CA-Image1.jpg?raw=true)
+
+![Cost Analysis 2](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/PartE-Costs/CA-Image2.jpg?raw=true)
+
+![Cost Analysis 3](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/PartE-Costs/CA-Image3.jpg?raw=true)
+
+![Cost Analysis 4](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/PartE-Costs/CA-Image4.jpg?raw=true)
+
+![Cost Analysis 5](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/PartE-Costs/CA-Image5.jpg?raw=true)
+
+![Cost Analysis 6](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/PartE-Costs/CA-Image6.jpg?raw=true)
 
 
 [List of VMs](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/vms.tbl)
