@@ -8,37 +8,31 @@
 <br>
 
 ## **Table of Contents** 
-* Part A - [Creating Your Unique Network Topology](#part-a--creating-your-unique-network-topology)
-* Part B - [Creating Resources in Azure Portal](#part-b---creating-resources-in-azure-portal) 
-* Part C - [Working in Azure CLI Bash](#part-c---working-in-azure-cli-bash)
+* Part A - DevTest Lab VM Configuration
+* Part B - [Linux VMs Firewall Setting](#part-b--linux-vms-firewall-setting)
+* Part C - [Enable ip-forwarding in NIC]()
+* Part D - [Basic Connectivity]()
 
 <br>
 <bR>
 
-### **PART A** -Creating Your Unique Network Topology: 
-<br>
-<br>
-
-[topology](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/images/NetworkTopologyCP4.jpg)
-
-<br>
+### **PART B** -Linux VMs Firewall Setting: 
 <br>
 
-### **Part B** - Creating Resources in Azure Portal
-<br>
 
-### **Part C** - Working in Azure CLI Bash:
-
-[peerings.tbl](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/peerings.tbl)
-
-[route-details.json](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/route-details.json)
-
-[route_list.tbl](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/route_list.tbl)
-
-[student_vnet.json](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/student_vnet.json)
-
-[vnet_list.json](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint4/PartCFiles/vnet_list.json)
+[Firewall Folder](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint6/PartB-LinuxFirewall)
 
 <br>
 
-### **Part D** - Network Review Questions: 
+### **Part C** - Enable ip-forwarding in NIC:
+<br>
+
+[ip-forwarding output](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/netforwrding.json)
+
+<br>
+
+### **Part D** - Basic Connectivity:
+
+<br>
+
+[SSH and RDP](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint6/sshRDP.json)
