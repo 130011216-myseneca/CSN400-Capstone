@@ -1,0 +1,40 @@
+Chain INPUT (policy ACCEPT 23500 packets, 5022K bytes)
+ pkts bytes target     prot opt in     out     source               destination
+ 3730  227K LOG        tcp  --  *      *       10.56.177.4          192.168.89.36        tcp dpt:22 LOG flags 0 level 4 prefix "SSH INPUT LR-89: "
+    1    52 ACCEPT     tcp  --  *      *       10.56.177.0/24       192.168.89.36        tcp dpt:22 state NEW
+
+Chain FORWARD (policy ACCEPT 69 packets, 5796 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+   96 11294 LOG        tcp  --  *      *       10.56.177.4          172.17.89.37         tcp dpt:22 LOG flags 0 level 4 prefix "SSH FORWARD LS-89: "
+  101 11554 ACCEPT     tcp  --  *      *       10.56.177.0/24       172.17.89.32/27      tcp dpt:22
+ 1486  174K LOG        tcp  --  *      *       10.56.177.4          172.17.89.36         tcp dpt:3389 LOG flags 0 level 4 prefix "RDP FORWARD WS-89: "
+   80 11278 ACCEPT     tcp  --  *      *       172.17.89.32/27      10.56.177.0/24       tcp spt:22
+   52  2151 LOG        tcp  --  *      *       10.56.177.4          172.17.89.36         tcp dpt:53 LOG flags 0 level 4 prefix "DNS TCP FORWARD: "
+ 1486  174K ACCEPT     tcp  --  *      *       10.56.177.0/24       172.17.89.32/27      tcp dpt:3389
+  405 26843 LOG        udp  --  *      *       10.56.177.4          172.17.89.36         udp dpt:53 LOG flags 0 level 4 prefix "DNS UDP FORWARD: "
+ 2508  412K ACCEPT     tcp  --  *      *       172.17.89.32/27      10.56.177.0/24       tcp spt:3389
+   42  1731 ACCEPT     tcp  --  *      *       10.56.177.4          172.17.89.36         tcp dpt:53
+   40  1612 ACCEPT     tcp  --  *      *       172.17.89.36         10.56.177.4          tcp spt:53
+   11   854 LOG        tcp  --  *      *       10.56.177.4          172.17.89.37         tcp dpt:3306 LOG flags 0 level 4 prefix "MySQL FORWARD LS-89: "
+    7   427 ACCEPT     udp  --  *      *       10.56.177.4          172.17.89.36         udp dpt:53
+    5   859 ACCEPT     udp  --  *      *       172.17.89.36         10.56.177.4          udp spt:53
+   48 10127 LOG        tcp  --  *      *       10.56.177.4          172.17.89.37         tcp dpt:80 LOG flags 0 level 4 prefix "HTTP FORWARD LS-89: "
+   37  1791 LOG        tcp  --  *      *       10.56.177.4          172.17.89.36         tcp dpt:21 LOG flags 0 level 4 prefix "FTP CONTROL PLANE FORWARD WS-"
+   11   854 ACCEPT     tcp  --  *      *       10.56.177.0/24       172.17.89.37         tcp dpt:3306
+   13  3955 LOG        tcp  --  *      *       10.56.177.4          172.17.89.36         tcp dpts:50000:51000 LOG flags 0 level 4 prefix "FTP DATA PLANE FORWARD WS-89:"
+   19  1683 LOG        tcp  --  *      *       10.56.177.4          172.17.89.36         tcp dpt:80 LOG flags 0 level 4 prefix "HTTP FORWARD WS-89: "
+   10  1474 ACCEPT     tcp  --  *      *       172.17.89.37         10.56.177.0/24       tcp spt:3306
+   48 10127 ACCEPT     tcp  --  *      *       10.56.177.0/24       172.17.89.37         tcp dpt:80
+   33  4619 ACCEPT     tcp  --  *      *       172.17.89.37         10.56.177.0/24       tcp spt:80
+   19  1683 ACCEPT     tcp  --  *      *       10.56.177.0/24       172.17.89.36         tcp dpt:80
+   19  2428 ACCEPT     tcp  --  *      *       172.17.89.36         10.56.177.0/24       tcp spt:80
+   37  1791 ACCEPT     tcp  --  *      *       10.56.177.0/24       172.17.89.36         tcp dpt:21
+   41  2835 ACCEPT     tcp  --  *      *       172.17.89.36         10.56.177.0/24       tcp spt:21
+   13  3955 ACCEPT     tcp  --  *      *       10.56.177.0/24       172.17.89.36         tcp dpts:50000:51000
+   11   678 ACCEPT     tcp  --  *      *       172.17.89.36         10.56.177.0/24       tcp spts:50000:51000
+    3  3780 LOG        all  --  *      *       10.56.177.0/24       172.17.89.36         LOG flags 0 level 4 prefix "TO_DROP_FORWARD"
+    3  3780 DROP       all  --  *      *       10.56.177.0/24       172.17.89.36
+
+Chain OUTPUT (policy ACCEPT 16357 packets, 4145K bytes)
+ pkts bytes target     prot opt in     out     source               destination
+ 4253  736K LOG        tcp  --  *      *       192.168.89.36        10.56.177.4          tcp spt:22 LOG flags 0 level 4 prefix "SSH OUTPUT WC-10.56.177.4: "
