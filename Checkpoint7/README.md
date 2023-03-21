@@ -22,7 +22,8 @@
 ### **PART A** -Logging Packets with Specific Prefixes: 
 
 ```bash
-cat CSN400-Capstone/Checkpoint7/LoggingPackets/lr_firewalls_log.txt
+curl https://raw.githubusercontent.com/130011216-myseneca/CSN400-Capstone/main/Checkpoint7/LoggingPackets/lr_firewalls_log.txt
+```
 
 [Firewall Folder](https://github.com/130011216-myseneca/CSN400-Capstone/tree/main/Checkpoint6/PartB-LinuxFirewall)
 
