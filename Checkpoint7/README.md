@@ -23,13 +23,18 @@
 ### **PART A** -Logging Packets with Specific Prefixes: 
 
 ```bash
-curl -sS "https://raw.githubusercontent.com/130011216-myseneca/CSN400-Capstone/main/Checkpoint7/LoggingPackets/lr_firewalls_log.txt" > lr_firewalls_log.txt && cat lr_firewalls_log.txt
+
+curl "https://raw.githubusercontent.com/130011216-myseneca/CSN400-Capstone/main/Checkpoint7/LoggingPackets/lr_firewalls_log.txt"
+
+
 ```
 
 [lr_firewall_log.sh](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint7/LoggingPackets/lr_firewall_log.sh)
 
 ```bash
+
 curl -s "https://raw.githubusercontent.com/130011216-myseneca/CSN400-Capstone/main/Checkpoint7/LoggingPackets/lr_firewalls_log.txt"
+
 ```
 <br>
 
@@ -39,8 +44,11 @@ curl -s "https://raw.githubusercontent.com/130011216-myseneca/CSN400-Capstone/ma
 <br>
 
 [logged_packets.log](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint7/FilteringLoggedPackets/logged_packets.log)
-```bash
+
+```console
+
 cat Checkpoint7/FilteringLoggedPackets/logged_packets.log
+
 ```
 <br>
 
