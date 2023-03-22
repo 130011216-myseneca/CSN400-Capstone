@@ -24,7 +24,7 @@
 
 ```bash
 
-curl "https://raw.githubusercontent.com/130011216-myseneca/CSN400-Capstone/main/Checkpoint7/LoggingPackets/lr_firewalls_log.txt"
+curl -s "https://raw.githubusercontent.com/130011216-myseneca/CSN400-Capstone/main/Checkpoint7/LoggingPackets/lr_firewalls_log.txt"
 
 
 ```
