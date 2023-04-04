@@ -44,7 +44,7 @@
 
 <br>
 
-### **Part C** - Adjusting Firewalls to DROP and LOG Traffic
+### **PART C** - Adjusting Firewalls to DROP and LOG Traffic
 <br>
 
 
@@ -58,10 +58,10 @@ Apr  4 03:06:27 LR-89 kernel: FTP CONTROL PLANE BLOCKED WS-IN=eth0 OUT=eth0 MAC=
 ![logged_packets.log](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/PartC.jpg?raw=true)
 
 
+<br>
 
 
-
-### **Part D** - Cost Analysis
+### **PART D** - Cost Analysis
 
 ![1](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Cost1.jpg?raw=true)
 
