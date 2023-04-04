@@ -10,9 +10,9 @@
 
 
 ## ***Table of Contents*** 
-* Part A - [Logging and Analyzing DNS and HTTP Traffic](#part-a--Logging and Analyzing DNS and HTTP Traffic:)
-* Part B - [Logging and Analyzing FTP and MySQL Traffic](#part-b--Logging and Analyzing FTP and MySQL Trafic:)
-* Part C - [Adjusting Firewalls to DROP and LOG Traffic](#part-c--Adjusting firewalls to DROP and LOG Traffic)
+* Part A - [Logging and Analyzing DNS and HTTP Traffic](#part-a--logging-and-analyzing-dns-and-http-traffic)
+* Part B - [Logging and Analyzing FTP and MySQL Traffic](#part-b--logging-and-analyzing-ftp-and-mysql-traffic)
+* Part C - [Adjusting Firewalls to DROP and LOG Traffic](#part-c---adjusting-firewalls-to-drop-and-log-traffic)
 * Part D - [Azure Cost Analysis Charts](#part-d---cost-analysis)
 
 <br>
@@ -24,7 +24,7 @@
 
 <br>
 
-[**apache-iis-filtered.pcap**]()
+![**apache-iis-filtered.pcap**](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/PartA.png?raw=true)
 
 
 
@@ -38,7 +38,7 @@
 ### **PART B** -Logging and Analyzing FTP and MySQL Traffic: 
 <br>
 
-[logged_packets.log](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint7/FilteringLoggedPackets/logged_packets.log)
+![logged_packets.log](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/PartB.jpg?raw=true)
 
 
 
@@ -48,18 +48,29 @@
 <br>
 
 
+```bash
+Apr  4 03:06:06 LR-89 kernel: SSH FORWARD LS-89 DROP: IN=eth0 OUT=eth0 MAC=60:45:bd:5b:74:be:fc:bd:67:ad:c7:9f:08:00 SRC=10.56.177.4 DST=172.17.89.37 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=43688 DF PROTO=TCP SPT=61318 DPT=22 WINDOW=64240 RES=0x00 SYN URGP=0
+
+Apr  4 03:06:27 LR-89 kernel: FTP CONTROL PLANE BLOCKED WS-IN=eth0 OUT=eth0 MAC=60:45:bd:5b:74:be:fc:bd:67:ad:c7:9f:08:00 SRC=10.56.177.4 DST=172.17.89.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=49356 DF PROTO=TCP SPT=61320 DPT=21 WINDOW=64240 RES=0x00 SYN URGP=0
+```
+
+
+![logged_packets.log](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/PartC.jpg?raw=true)
+
+
+
 
 
 ### **Part D** - Cost Analysis
 
-![1](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Graphs/1.jpg)
+![1](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Cost1.jpg?raw=true)
 
-![2](https://github.com/130011216-myseneca/CSN400-Capstone/blob/0b70d944cf011827af14eedc6472432fe383744c/Checkpoint7/Graphs/2.jpg)
+![2](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Cost2.jpg?raw=true)
 
-![3](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Graphs/3.jpg)
+![3](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Cost3.jpg?raw=true)
 
-![4](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Graphs/4.jpg)
+![4](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Pie1.jpg?raw=true)
 
-![5](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Graphs/5.jpg)
+![5](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Pie2.jpg?raw=true)
 
-![6](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint7/Graphs/6.jpg)
+![6](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Pie3.jpg?raw=true)
