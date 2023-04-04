@@ -24,7 +24,7 @@
 
 <br>
 
-[**apache-iis-filtered.pcap**](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint7/LoggingPackets/lr_firewall_log.sh)
+[**apache-iis-filtered.pcap**]()
 
 
 
