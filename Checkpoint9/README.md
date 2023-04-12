@@ -90,14 +90,13 @@ Apr 11 22:21:34 LR-89 kernel: log-captures masquerading httIN=eth0 OUT=eth0 MAC=
 Apr 11 22:22:37 LR-89 kernel: log-captures masquerading mysIN=eth0 OUT=eth0 MAC=00:22:48:b1:08:cd:c0:d6:82:30:eb:9c:08:00 SRC=192.168.90.36 DST=172.17.89.37 LEN=40 TOS=0x00 PREC=0x00 TTL=125 ID=5289 DF PROTO=TCP SPT=52053 DPT=3389 WINDOW=29200 RES=0x00 SYN URGP=0=0x00 TTL=125 ID=5286 DF PROTO=TCP SPT=54891 DPT=3306 WINDOW=2049 RES=0x00 ACK URGP=0
 Apr 11 22:20:31 LR-89 kernel: log-captures masquerading rdpIN=eth0 OUT=eth0 MAC=00:22:48:b1:08:cd:c0:d6:82:30:eb:9c:08:00 SRC=192.168.90.36 DST=172.17.89.36 LEN=40 TOS=0x00 PREC=0x00 TTL=125 ID=5157 DF PROTO=TCP SPT=54867 DPT=3389 WINDOW=0 RES=0x00 ACK RST URGP=0
 Apr 11 22:20:47 LR-89 kernel: log-captures masquerading httIN=eth0 OUT=eth0 MAC=00:22:48:b1:08:cd:c0:d6:82:30:eb:9c:08:00 SRC=192.168.90.36 DST=172.17.89.37 LEN=40 TOS=0x00 PREC=0x00 TTL=125 ID=5167 DF PROTO=TCP SPT=54870 DPT=80 WINDOW=2049 RES=0x00 ACK FIN URGP=0
-
+```
 
 ![logged_packets.log](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/PartC.jpg?raw=true)
 
 
 ![logged_packets.log](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/dropfilter.jpg?raw=true)
 
-```
 
 <br>
 
