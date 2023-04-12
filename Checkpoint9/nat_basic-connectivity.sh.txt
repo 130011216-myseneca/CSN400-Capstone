@@ -1,0 +1,38 @@
+# to flush NAT tables
+iptables -t nat -F
+
+# to log outgoing traffic
+iptables -t nat -A POSTROUTING -j LOG --log-prefix "Outgoing traffic "
+#POSTROUTING
+iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+
+#PREROUTING
+# to log incoming traffic to APACHE server
+iptables -t nat -A PREROUTING -p tcp --dport 1889 -j LOG --log-prefix "APACHE "
+# to allow other students to access APACHE server
+iptables -t nat -A PREROUTING -p tcp --dport 1889 -j DNAT --to-destination 172.17.89.37:80
+
+# to log incoming traffic to MySQL server
+iptables -t nat -A PREROUTING -p tcp --dport 1689 -j LOG --log-prefix "MySQL "
+# to allow other students to access MySQL server
+iptables -t nat -A PREROUTING -p tcp --dport 1689 -j DNAT --to-destination 172.17.89.37:3306
+
+# to log incoming traffic to Linux server - SSH
+iptables -t nat -A PREROUTING -p tcp --dport 1289 -j LOG --log-prefix "SSH "
+# to allow other students to access Linux server - SSH
+iptables -t nat -A PREROUTING -p tcp --dport 1289 -j DNAT --to-destination 172.17.89.37:22
+
+# to log incoming traffic to IIS server
+iptables -t nat -A PREROUTING -p tcp --dport 1989 -j LOG --log-prefix "IIS "
+# to allow other students to access IIS server
+iptables -t nat -A PREROUTING -p tcp --dport 1989 -j DNAT --to-destination 172.17.89.36:80
+
+# to log incoming traffic to Windows server - RDP
+iptables -t nat -A PREROUTING -p tcp --dport 1389 -j LOG --log-prefix "RDP "
+# to allow other students to access Windows server - RDP
+iptables -t nat -A PREROUTING -p tcp --dport 1389 -j DNAT --to-destination 172.17.89.36:3389
+
+
+
+
+
