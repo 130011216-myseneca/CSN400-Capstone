@@ -1,0 +1,73 @@
+[amackenzie10@LR-89 workfolder]$ sudo iptables -nvL --line
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination
+1    75315   16M ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+2        0     0 ACCEPT     icmp --  *      *       10.59.204.0/24       192.168.89.36
+3        0     0 ACCEPT     icmp --  *      *       192.168.90.36        192.168.89.36
+4        0     0 ACCEPT     icmp --  *      *       192.168.9.36         192.168.89.36
+5        0     0 ACCEPT     all  --  lo     *       127.0.0.0/24         10.59.204.0/24
+6        0     0 LOG        tcp  --  *      *       10.59.204.0/24       192.168.89.36        tcp dpt:22 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "SSH INPUT LR-89 "
+7        0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       192.168.89.36        state NEW tcp dpt:22
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination
+1        0     0 LOG        tcp  --  *      *       10.59.204.0/24       172.17.89.37         tcp dpt:22 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "SSH FORWARD LS-89 "
+2        0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       172.17.89.32/27      tcp dpt:22
+3        0     0 ACCEPT     tcp  --  *      *       172.17.89.32/27      10.59.204.0/24       tcp spt:22
+4        0     0 LOG        tcp  --  *      *       10.59.204.0/24       172.17.89.36         tcp dpt:3389 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "RDP FORWARD WS-89 "
+5        0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       172.17.89.32/27      tcp dpt:3389
+6        0     0 ACCEPT     tcp  --  *      *       172.17.89.32/27      10.59.204.0/24       tcp spt:3389
+7        0     0 LOG        tcp  --  *      *       10.59.204.0/24       172.17.89.36         tcp dpt:53 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "DNS TCP FORWARD WS-89 "
+8        0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       172.17.89.36         tcp dpt:53
+9        0     0 ACCEPT     tcp  --  *      *       172.17.89.36         10.59.204.0/24       tcp spt:53
+10       0     0 LOG        udp  --  *      *       10.59.204.0/24       172.17.89.36         udp dpt:53 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "DNS UDP FORWARD WS-89 "
+11       0     0 ACCEPT     udp  --  *      *       10.59.204.0/24       172.17.89.36         udp dpt:53
+12       0     0 ACCEPT     udp  --  *      *       172.17.89.36         10.59.204.0/24       udp spt:53
+13       0     0 LOG        tcp  --  *      *       10.59.204.0/24       172.17.89.37         tcp dpt:3306 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "MySQL FORWARD LS-89 "
+14       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       172.17.89.37         tcp dpt:3306
+15       0     0 ACCEPT     tcp  --  *      *       172.17.89.37         10.59.204.0/24       tcp spt:3306
+16       0     0 LOG        tcp  --  *      *       10.59.204.0/24       172.17.89.37         tcp dpt:80 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "HTTP FORWARD LS-89 "
+17       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       172.17.89.37         tcp dpt:80
+18       0     0 ACCEPT     tcp  --  *      *       172.17.89.37         10.59.204.0/24       tcp spt:80
+19       0     0 LOG        tcp  --  *      *       10.59.204.0/24       172.17.89.36         tcp dpt:80 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "HTTP FORWARD WS-89 "
+20       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       172.17.89.36         tcp dpt:80
+21       0     0 ACCEPT     tcp  --  *      *       172.17.89.36         10.59.204.0/24       tcp spt:80
+22       0     0 LOG        tcp  --  *      *       10.59.204.0/24       172.17.89.36         tcp dpt:21 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "FTP CONTROL PLANE FORWARD WS-"23       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       172.17.89.36         tcp dpt:21
+24       0     0 ACCEPT     tcp  --  *      *       172.17.89.36         10.59.204.0/24       tcp spt:21
+25       0     0 LOG        tcp  --  *      *       10.59.204.0/24       172.17.89.36         tcp dpts:50000:51000 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "FTP DATA PLANE FORWARD WS-89 "
+26       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       172.17.89.36         tcp dpts:50000:51000
+27       0     0 ACCEPT     tcp  --  *      *       172.17.89.36         10.59.204.0/24       tcp spts:50000:51000
+28       0     0 LOG        tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1888 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "custom-port-Apache-Server"
+29       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1888
+30       0     0 ACCEPT     tcp  --  *      *       192.168.90.36        10.59.204.0/24       tcp spt:1888
+31       0     0 LOG        tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1688 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "custom-port-MySQL-Server"
+32       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1690
+33       0     0 ACCEPT     tcp  --  *      *       192.168.90.36        10.59.204.0/24       tcp spt:1690
+34       0     0 LOG        tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1990 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "custom-port-IIS-Server"
+35       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1990
+36       0     0 ACCEPT     tcp  --  *      *       192.168.90.36        10.59.204.0/24       tcp spt:1990
+37       0     0 LOG        tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1390 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "custom-port-RDP-Server"
+38       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1390
+39       0     0 ACCEPT     tcp  --  *      *       192.168.90.36        10.59.204.0/24       tcp spt:1390
+40       0     0 LOG        tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1290 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "custom-port-SSH"
+41       0     0 ACCEPT     tcp  --  *      *       10.59.204.0/24       192.168.90.36        tcp dpt:1290
+42       0     0 ACCEPT     tcp  --  *      *       192.168.90.36        10.59.204.0/24       tcp spt:1290
+43      85  7940 LOG        tcp  --  *      *       192.168.90.36        0.0.0.0/0            tcp dpt:80 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "log-captures masquerading htt"44     144 12736 ACCEPT     tcp  --  *      *       192.168.90.36        0.0.0.0/0            tcp dpt:80
+45     139  221K ACCEPT     tcp  --  *      *       0.0.0.0/0            192.168.90.36        tcp spt:80
+46     180 20695 LOG        tcp  --  *      *       192.168.90.36        0.0.0.0/0            tcp dpt:22 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "log-captures masquerading ssh"47     229 28095 ACCEPT     tcp  --  *      *       192.168.90.36        0.0.0.0/0            tcp dpt:22
+48     196 29199 ACCEPT     tcp  --  *      *       0.0.0.0/0            192.168.90.36        tcp spt:22
+49      23  3033 LOG        tcp  --  *      *       192.168.90.36        0.0.0.0/0            tcp dpt:3389 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "log-captures masquerading rdp"
+50      23  3033 ACCEPT     tcp  --  *      *       192.168.90.36        0.0.0.0/0            tcp dpt:3389
+51      17  3782 ACCEPT     tcp  --  *      *       0.0.0.0/0            192.168.90.36        tcp spt:3389
+52      40  3037 LOG        tcp  --  *      *       192.168.90.36        0.0.0.0/0            tcp dpt:3306 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "log-captures masquerading mys"
+53     108  9975 ACCEPT     tcp  --  *      *       192.168.90.36        0.0.0.0/0            tcp dpt:3306
+54      95 46642 ACCEPT     tcp  --  *      *       0.0.0.0/0            192.168.90.36        tcp spt:3306
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination
+1        0     0 LOG        tcp  --  *      *       192.168.89.36        10.59.204.4          tcp spt:22 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "SSH OUTPUT WC-89 "
+2        0     0 ACCEPT     tcp  --  *      *       192.168.89.36        10.59.204.4          tcp spt:22
+3    93767   43M ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
+[amackenzie10@LR-89 workfolder]$ To list all route tables and routes, you can use the `ip route show table all` command. To display the associated subnets, you can use the `ip route show table all match 0/0` command. Here is an example output in table format:
+```
+# ip route show table all
