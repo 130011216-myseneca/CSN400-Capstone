@@ -10,9 +10,9 @@
 
 
 ## ***Table of Contents*** 
-* Part A - [Route Table Updates](#part-a--logging-and-analyzing-dns-and-http-traffic)
-* Part B - [Port Forwarding Basic Connectivity](#part-b--logging-and-analyzing-ftp-and-mysql-traffic)
-* Part C - [Logging and Isolating Masqueraded Packets](#part-c---adjusting-firewalls-to-drop-and-log-traffic)
+* Part A - [Route Table Updates](#part-a--route-table-updates)
+* Part B - [Port Forwarding Basic Connectivity](#part-b--port-forwarding-basic-connectivity)
+* Part C - [Logging and Isolating Masqueraded Packets](#part-c---logging-and-isolating-masqueraded-packets)
 * Part D - [Azure Cost Analysis Charts](#part-d---cost-analysis)
 
 <br>
