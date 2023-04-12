@@ -97,12 +97,16 @@ Apr 11 22:20:47 LR-89 kernel: log-captures masquerading httIN=eth0 OUT=eth0 MAC=
 
 ![logged_packets.log](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/dropfilter.jpg?raw=true)
 
-``
+```
 
 <br>
 
 
 ### **PART D** - Cost Analysis
 
-![1](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint8/Images/Cost1.jpg?raw=true)
-
+![1](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Cost1.jpg?raw=true)
+![2](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Cost2.jpg?raw=true)
+![3](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Cost3.jpg?raw=true)
+![4](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Cost4.jpg?raw=true)
+![5](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Cost5.jpg?raw=true)
+![6](https://github.com/130011216-myseneca/CSN400-Capstone/blob/main/Checkpoint9/Cost6.jpg?raw=true)
